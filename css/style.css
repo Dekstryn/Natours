@@ -39,3 +39,13 @@ body{
 .logo{
   height: 35px;
 }
+.heading-primary{
+  color: #fff;
+  text-transform: uppercase;
+}
+.heading-primary-main{
+  display: block;
+}
+.heading-primary-sub{
+  display: block;
+}
