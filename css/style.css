@@ -134,6 +134,6 @@ body{
   background-color: #fff;
 }
 .btn:hover::after{
-  transform: scaleX(1.4) scaleY(1.6);
+  transform: scaleX(1.6) scaleY(1.8);
   opacity: 0;
 }
