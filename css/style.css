@@ -96,3 +96,10 @@ body{
     transform: translateX(0);
   }
 }
+.btn:link,
+.btn:visited{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+}
