@@ -160,3 +160,6 @@ body{
   transform: scaleX(1.6) scaleY(1.8);
   opacity: 0;
 }
+.btn-animated{
+  animation: moveInBottom .5s ease-out .75s;
+}
