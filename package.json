@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/Dekstryn/Natours#readme",
   "dependencies": {
-    "jquery": "^3.4.1",
     "node-sass": "^4.12.0"
   }
 }
