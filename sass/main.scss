@@ -143,6 +143,10 @@ body{
   &:hover{
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem rgba($color-black,.2);
+    &::after{
+      transform: scaleX(1.6) scaleY(1.8);
+      opacity: 0;
+    }
   }
   &:active{
     transform: translateY(-0.1rem);
@@ -166,10 +170,6 @@ body{
     left: 0;
     z-index: -1;
     transition: all .4s;
-  }
-  &:hover::after{
-    transform: scaleX(1.6) scaleY(1.8);
-    opacity: 0;
   }
   &--animated{
     animation: moveInBottom .5s ease-out .75s;
