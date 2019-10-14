@@ -151,6 +151,9 @@ body{
   &--white{
     background-color: $color-white;
     color: $color-grey-dark;
+    &::after{
+      background-color: $color-white;
+    }
   }
   &::after{
     content: "";
@@ -163,9 +166,6 @@ body{
     left: 0;
     z-index: -1;
     transition: all .4s;
-  }
-  &--white::after{
-    background-color: $color-white;
   }
   &:hover::after{
     transform: scaleX(1.6) scaleY(1.8);
