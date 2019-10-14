@@ -2,7 +2,7 @@
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
-
+$color-grey-dark: #777;
 //sass code
 *,
 *::after,
@@ -20,6 +20,7 @@ body{
   line-height: 1.7;
   padding: 3rem;
   box-sizing: border-box;
+  color: $color-grey-dark;
 }
 
 .header{
@@ -144,7 +145,7 @@ body{
 }
 .btn--white{
   background-color: #fff;
-  color: #777;
+  color: $color-grey-dark;
 }
 .btn::after{
   content: "";
