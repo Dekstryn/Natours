@@ -20,6 +20,7 @@
   }
   &__img{
     height: 100%;
+    transform: translateX(-4rem);
   }
   &__text{
     transform: skewX(12deg);
