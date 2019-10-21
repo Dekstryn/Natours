@@ -201,13 +201,13 @@ body {
     outline-offset: 2rem; }
     .composition__photo--p1 {
       left: 0;
-      top: -2rem; }
+      top: 14rem; }
     .composition__photo--p2 {
       right: 0;
-      top: 2rem; }
+      top: 16rem; }
     .composition__photo--p3 {
       left: 20%;
-      top: 10rem; }
+      top: 24rem; }
     .composition__photo:hover {
       outline: 1.5rem solid #55c57a;
       transform: scale(1.05) translateY(5px);
