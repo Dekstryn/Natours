@@ -9,6 +9,9 @@
     border-radius: $small-border-radius;
     border-color: rgba($color-white, .5);
     border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
   }
   &__input:focus{
     outline: none;
