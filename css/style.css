@@ -399,7 +399,8 @@ body {
   border: none;
   border-bottom: 3px solid transparent;
   width: 90%;
-  display: block; }
+  display: block;
+  transition: all .3s; }
 
 .form:focus {
   outline: none;
