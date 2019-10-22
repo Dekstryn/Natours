@@ -38,6 +38,6 @@
 .book{
   background-image: url(../img/nat-10.jpg);
   background-size: cover;
-  border-radius: 3px;
+  border-radius: $small-border-radius;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 }
