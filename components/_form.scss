@@ -69,9 +69,7 @@
       height: 1.2rem;
       width: 1.2rem;
       border-radius: 50%;
-      position: absolute;
-      top: 8%;
-      left: 4%;
+      @include center;
       background-color: $color-primary;
       opacity: 0;
       transition: opacity, .2s;
