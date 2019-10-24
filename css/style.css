@@ -5,6 +5,13 @@
 1200 - 1800px: Desktop (normal styles apply)
 1800px + Big screen
 */
+/*
+$breakpoint arguement choice:
+-phone
+-tab-port
+-tab-land
+-big-desktop
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
