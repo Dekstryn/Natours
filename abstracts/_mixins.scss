@@ -18,17 +18,14 @@
 900 - 1200px: Tablet landscape
 1200 - 1800px: Desktop (normal styles apply)
 1800px + Big screen
-*/
-@mixin respond-phone{
-  @media (max-width: 600px) {@content};
-}
 
-/*
 $breakpoint arguement choice:
 -phone
 -tab-port
 -tab-land
 -big-desktop
+
+Unit
 1em =16px
 */
 @mixin respond($breakpoint){
