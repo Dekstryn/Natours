@@ -170,6 +170,12 @@ body {
 
 .u-margin-top-huge {
   margin-top: 10rem !important; }
+  @media (max-width: 56.25em) {
+    .u-margin-top-huge {
+      margin-top: 3rem !important; } }
+  @media (max-width: 37.5em) {
+    .u-margin-top-huge {
+      margin-top: 0 !important; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
