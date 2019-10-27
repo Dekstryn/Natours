@@ -5,6 +5,10 @@
 
   @include respond(tab-port){
     padding: 15rem 0;
+    margin-top: -10vh;
+  }
+  @include respond(phone){
+    margin-top: -5vh;
   }
 }
 
