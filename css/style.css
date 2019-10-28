@@ -480,7 +480,7 @@ body {
         transform: skewX(0) translateX(-3rem); } }
   .story__img {
     height: 100%;
-    transform: translateX(-1rem) scale(1.4);
+    transform: translateX(-1rem) scale(1.2);
     transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
