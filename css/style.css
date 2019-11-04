@@ -351,7 +351,7 @@ body {
       .card__side--back-2 {
         background-image: linear-gradient(to right bottom, #FFE53B, #CE380F); }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -369,7 +369,7 @@ body {
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #FFE53B, #CE380F), url(../img/kaplica_img.png); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/szczeliniec_img.png); }
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/szczeliniec_img.png); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -389,7 +389,7 @@ body {
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(255, 229, 59, 0.85), rgba(206, 56, 15, 0.85)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
